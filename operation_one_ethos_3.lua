@@ -273,7 +273,7 @@ local _aim = {
 }
 
 local _fovCircle = Drawing.new("Circle")
-_fovCircle.Thickness = 1; _fovCircle.NumSides = 64; _fovCircle.Filled = false
+_fovCircle.Thickness = 1; _fovCircle.Filled = false
 _fovCircle.Color = Color3.fromRGB(255, 255, 255); _fovCircle.Visible = false
 local _fovVisible = false
 
